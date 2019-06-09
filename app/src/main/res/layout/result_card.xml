@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.v7.widget.CardView
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/candidateImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/video"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/candidateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Candidate Name"
+            android:layout_toRightOf="@+id/candidateImage"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/partyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/candidateName"
+            android:layout_toRightOf="@id/candidateImage"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Bhartiya Janta Party"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/votesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votes : "
+            android:layout_toRightOf="@id/candidateImage"
+            android:layout_below="@id/partyName"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/votes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="121"
+            android:layout_below="@+id/partyName"
+            android:layout_toRightOf="@id/votesText"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

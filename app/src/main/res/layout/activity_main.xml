@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/red_fort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/redfort"
+        />
+    <TextView
+        android:id="@+id/appname"
+        android:layout_below="@+id/red_fort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vote Chandni Chowk"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="#cb5235"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_height="250dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/appname"
+        android:src="@drawable/sample"/>
+
+    <ImageView
+        android:layout_below="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"
+        android:src="@drawable/meramatdan"/>
+
+
+</RelativeLayout>

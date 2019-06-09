@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PWDActivity">
+
+    <include layout="@layout/toolbar" android:id="@+id/toolbar"/>
+
+
+
+    <EditText
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/pwd_epic_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter EPIC Number"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pwd_epic_number_edit_text"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:background="#fe485a"
+        />
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:id="@+id/layoutPWDApp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/clickPWDApp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/click_on_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/pwdApp"
+            android:text="@string/open_pwd_app"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:paddingLeft="55dp"
+            android:paddingRight="55dp"
+            android:elevation="8dp"
+            android:drawableRight="@drawable/send"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

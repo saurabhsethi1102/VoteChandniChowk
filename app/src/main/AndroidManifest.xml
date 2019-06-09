@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.votechandnichowk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".Feedback"
+            android:screenOrientation="portrait"
+            android:label="Feedback" />
+        <activity android:name=".HelpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".AboutChandniChowk"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".ThirdGenderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".PWDActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".Pwd_pick_up_points"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".knowCandidate"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".PollingStationWeb"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".PollingStation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".AllPollingStation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+
+    </application>
+
+
+
+</manifest>

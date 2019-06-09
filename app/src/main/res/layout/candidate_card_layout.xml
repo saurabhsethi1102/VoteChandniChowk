@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="5dp"
+        app:contentPadding="5dp"
+        app:cardElevation="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/candidate"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/video"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#cb5235"
+                android:textSize="25sp"
+                android:text="Harsh"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_toRightOf="@+id/candidate"
+                android:layout_below="@+id/name"
+                android:id="@+id/partyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BJP"
+                android:layout_marginStart="20dp"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

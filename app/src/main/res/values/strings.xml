@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Vote Chandni Chowk</string>
+    <string name="home">  HOME</string>
+    <string name="settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="location">Location</string>
+    <string name="help">Help and Support</string>
+    <string name="feedback">Feedback</string>
+    <string name="know_your_candidate">Know Your Candidate</string>
+    <string name="facility_for_pwd">Facility for PwD (Divyang)</string>
+    <string name="facilities_for_third_gender">Facilities for Third Gender</string>
+    <string name="results">Results</string>
+    <string name="about_chandani_chowk">About Chandni Chowk PC</string>
+    <string name="pick_up_time">Pick Up Time:</string>
+    <string name="pick_up_point">Pick Up Point</string>
+    <string name="drop_time">Drop Time:</string>
+    <string name="click_on_button">Click on the button to open PWD app</string>
+    <string name="open_pwd_app">Open PWD App</string>
+    <string name="know_your_polling_station">Know Your Polling Station</string>
+    <string name="chandni_chowk">Chandni Chowk</string>
+    <string name="parliament_constituency">Parliament Constituency</string>
+    <string name="select_polling_booth">Select Your Polling Booth</string>
+    <string name="chandni_chowk_content">
+        In the heart of Old Delhi, <b>Chandni Chowk</b> is a busy shopping area with markets full of spices, dried fruits, silver jewellery and vivid saris, while the narrow side streets are crowded with tiny shops selling essential oils, stationery and traditional Indian sweets.\n\n
+        Chandni Chowk has <b>10 Assembly Constituencies</b>:
+    </string>
+    <string name="affidavit">Affidavit : </string>
+
+    <string name="constituency">Constituency</string>
+    <string name="number_of_votes">Number of Voters</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="pwd">PwD</string>
+    <string name="third_gender">Third Gender</string>
+    <string name="shakur_basti">Shakur Basti</string>
+    <string name="tri_nagar">Tri Nagar</string>
+    <string name="shalimar_bagh">Shalimar Bagh</string>
+    <string name="wazirpur">Wazirpur</string>
+    <string name="sadar_bazar">Sadar Bazar</string>
+    <string name="adarsh_nagar">Adarsh Nagar</string>
+    <string name="model_town">Model Town</string>
+    <string name="ballimaran">Ballimaran</string>
+    <string name="matia_mahal">Matia Mehal</string>
+
+
+    <string name="how_to_vote">How to Vote</string>
+
+    <string name="suggest_improve">Suggest to Improve</string>
+    <string name="feed_name">Name</string>
+    <string name="feedback2">Your Feedback is valuable to us.</string>
+    <string name="max250">max 250 char</string>
+    <string name="rateus">Rate Us</string>
+    <string name="your_rating">Your Rating</string>
+    <string name="submit_feed">Submit Feedback</string>
+
+    <string name="submit_request">Submit Request</string>
+
+    <string name="choose_ac">Choose your AC No</string>
+    <string name="search_ps">Search your Polling Station</string>
+    <string name="enter_epic">Enter EPIC Number</string>
+    <string name="submit">Submit</string>
+    <string name="emergenct_no">Emergency Numbers</string>
+    <string name="police">Police: 100</string>
+    <string name="fire">Fire Brigade: 101</string>
+    <string name="ambulance">Ambulance: 102</string>
+    <string name="Women">Women Helpine: 1091</string>
+
+
+
+</resources>

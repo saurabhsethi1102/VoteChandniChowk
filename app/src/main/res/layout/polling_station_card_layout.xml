@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:id="@+id/boothImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/video"
+            />
+
+        <TextView
+            android:id="@+id/boothName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fe485a"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:text="Booth Name"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/name_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/PoolingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polling Station Number : "
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/Polling_station_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/PoolingText"
+                android:layout_marginLeft="10dp"
+                android:text="121"
+                android:textColor="#000"
+                android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_below="@+id/name_layout"
+                android:id="@+id/facilities_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/facilityText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facilities Available : "
+                android:layout_below="@id/PoolingText"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/facilities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Washroom"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_below="@id/Polling_station_no"
+                android:layout_toRightOf="@id/facilityText"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/facilities_layout"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/peopleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People In Queue : "
+                android:layout_below="@id/facilityText"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/number_of_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_below="@id/facilities"
+                android:layout_toRightOf="@id/peopleText"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/ps_locate"
+                android:text="Locate"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:paddingLeft="55dp"
+                android:paddingRight="55dp"
+                android:elevation="8dp"
+                android:drawableRight="@drawable/locate_icon"
+                android:drawablePadding="8dp"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

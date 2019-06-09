@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">चुनाव ऐप</string>
+    <string name="home">होम</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="help">सहायता &amp; सहयोग</string>
+    <string name="location">स्थान</string>
+    <string name="feedback">सुधार का सुझाव</string>
+    <string name="know_your_polling_station">अपने मतदान केंद्र को जानें</string>
+    <string name="know_your_candidate">अपने उम्मीदवार को जानें</string>
+    <string name="facility_for_pwd">पीडब्ल्यूडी (दिव्यांग) के लिए सुविधा</string>
+    <string name="facilities_for_third_gender">थर्ड जेंडर के लिए सुविधाएं</string>
+    <string name="results">परिणाम</string>
+    <string name="about_chandani_chowk">चांदनी चौक के पी.सी. के बारे में</string>
+    <string name="pick_up_time">समय लेने:</string>
+    <string name="pick_up_point">पिक अप बिंदु</string>
+    <string name="drop_time">ड्रॉप समय:</string>
+    <string name="click_on_button">पीडब्ल्यूडी ऐप खोलने के लिए बटन पर क्लिक करें</string>
+    <string name="open_pwd_app">पीडब्ल्यूडी ऐप खोलें</string>
+    <string name="chandni_chowk">चांदनी चौक</string>
+    <string name="parliament_constituency">संसद निर्वाचन क्षेत्र</string>
+    <string name="chandni_chowk_content">
+        पुरानी दिल्ली के केंद्र में, <b>चांदनी चौक</b>, मसालों, सूखे मेवों, चांदी के आभूषणों और ज्वलंत साड़ियों से भरे बाजारों के साथ एक व्यस्त खरीदारी क्षेत्र है, जबकि संकरी गलियों में आवश्यक तेलों, स्टेशनरी और पारंपरिक भारतीय मिठाइयों की बिक्री करने वाली छोटी दुकानों की भीड़ है।\n\n
+        चांदनी चौक में <b>10 विधानसभा क्षेत्र</b> हैं:
+    </string>
+    <string name="select_polling_booth">अपने मतदान बूथ का चयन करें</string>
+    <string name="affidavit">शपथ पत्र :</string>
+    <string name="constituency">चुनाव क्षेत्र</string>
+    <string name="number_of_votes">मतदाताओं की संख्या</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="pwd">पीडब्ल्यूडी</string>
+    <string name="third_gender">थर्ड जेंडर</string>
+    <string name="shakur_basti">शकूर बस्ती</string>
+    <string name="tri_nagar">त्रि नगर</string>
+    <string name="shalimar_bagh">शालीमार बाग</string>
+    <string name="wazirpur">वजीरपुर</string>
+    <string name="sadar_bazar">सदर बाजार</string>
+    <string name="adarsh_nagar">आदर्श नगर</string>
+    <string name="model_town">मॉडल टाउन</string>
+    <string name="ballimaran">बल्लीमारान</string>
+    <string name="matia_mahal">मतिया मेहल</string>
+
+    <string name="how_to_vote">मतदान कैसे करे</string>
+
+
+    <string name="suggest_improve">सुधार का सुझाव दें</string>
+    <string name="feed_name">नाम</string>
+    <string name="feedback2">आपकी प्रतिक्रिया हमारे लिए बहुमूल्य है।</string>
+    <string name="max250">अधिकतम 250 वर्ण</string>
+    <string name="rateus">हमें रेटिंग दें</string>
+    <string name="your_rating">आपकी रेटिंग</string>
+    <string name="submit_feed">प्रतिपुष्टि दें</string>
+
+    <string name="submit_request">निवेदन जमा करें</string>
+
+
+    <string name="choose_ac">अपना AC नंबर चुनें</string>
+    <string name="search_ps">अपना मतदान केंद्र खोजें</string>
+    <string name="enter_epic">EPIC नंबर डालें</string>
+    <string name="submit">जमा करें</string>
+    <string name="emergenct_no">आपातकालीन नंबर</string>
+    <string name="police">पुलिस: 100</string>
+    <string name="fire">फायर ब्रिगेड: 101</string>
+    <string name="ambulance">एम्बुलेंस: 102</string>
+    <string name="Women">महिला हेल्पलाइन: 1091</string>
+
+</resources>

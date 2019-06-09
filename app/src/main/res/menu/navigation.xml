@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_help"
+        android:title="@string/help"
+        android:icon="@drawable/ic_person_help_24dp"/>
+
+
+
+    <item
+        android:id="@+id/navigation_feedback"
+        android:title="@string/feedback"
+        android:icon="@drawable/ic_feedback_white_24dp"/>
+    <item android:id="@+id/how_to_vote"
+        android:title="@string/how_to_vote"
+        android:icon="@drawable/video"/>
+
+
+</menu>

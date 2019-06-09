@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+    <include layout="@layout/toolbar" android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/emergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Emergency Numbers"
+        android:textStyle="bold"
+        android:textColor="#cb5235"
+        android:textSize="32dp"
+        android:layout_marginTop="40dp"
+        android:shadowColor="#7F000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="3"
+        />
+
+     <TextView
+         android:id="@+id/police"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="25dp"
+         android:textColor="#000"
+         android:text="  Police : 100"
+         android:layout_marginLeft="30dp"
+         android:layout_marginTop="30dp"
+         android:background="@drawable/border2"
+         android:layout_marginRight="30dp"
+         android:autoLink="phone"
+         android:linksClickable="true"
+         android:drawableLeft="@drawable/policeman"
+         />
+
+
+
+        <TextView
+            android:id="@+id/fire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="  Fire Brigade : 101"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/border2"
+            android:layout_marginRight="30dp"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:drawableLeft="@drawable/firestation"
+            />
+
+
+        <TextView
+            android:id="@+id/ambulance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:text="  Ambulance : 102"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/border2"
+            android:layout_marginRight="30dp"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:drawableLeft="@drawable/ambulance"
+            />
+
+         <TextView
+             android:id="@+id/womenHelpline"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="23dp"
+             android:textColor="#000"
+             android:text="  Women Helpline : 1091"
+             android:background="@drawable/border2"
+             android:layout_marginTop="30dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginRight="30dp"
+             android:autoLink="phone"
+             android:linksClickable="true"
+               android:drawableLeft="@drawable/girl"
+             />
+
+    </LinearLayout>
+
+</RelativeLayout>

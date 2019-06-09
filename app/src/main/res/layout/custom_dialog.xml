@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:gravity="http://schemas.android.com/apk/res-auto">
+
+
+         <TextView
+        android:id="@+id/customDialogPartyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Party Name"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/partyLeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leader Name"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@id/customDialogPartyName"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/customDialogVoteCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="number of votes here"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/partyLeader"
+        android:layout_margin="13dp"/>
+
+</RelativeLayout>
